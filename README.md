@@ -15,9 +15,10 @@ This release has implemented
 This release has implemented an example of using MCTS in tic-tac-toe, and to run the example, you can directly run `main.py`.
 
 If you want to test mcts in other states, you can modify the following parameters:
-`current`:This parameter indicates the current game status on the board.
-`ust_constant`:It is a custom parameter in the ust algorithm
-`iterations`:It is the iteration round of mcts
+
+- `current`:This parameter indicates the current game status on the board.
+- `ust_constant`:It is a custom parameter in the ust algorithm
+- `iterations`:It is the iteration round of mcts
 
 ```
 if __name__ == '__main__':
